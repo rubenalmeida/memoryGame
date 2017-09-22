@@ -1,0 +1,17 @@
+{
+  "name": "memoryApp",
+  "app_id": "444a6081",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*",
+    "scss/**/*"
+  ],
+  "integrations": {
+    "gulp": {}
+  },
+  "type": "ionic1"
+}
