@@ -9,7 +9,7 @@
 		<div class="padding">
 
 			<div class="list">
-				<div class="item item-divider"> 
+				<div class="item item-divider">
 					Themes
 					<span class="item-note">
 						active theme:
@@ -19,11 +19,11 @@
 
 				<ion-radio ng-repeat="theme in themes" ng-model="settings.theme" ng-value="theme.value" ng-change="serverSideChange(theme)" ng-class="theme.value">{{ theme.text }}</ion-radio>
 
-<!-- 				<div class="item item-divider"> 
+			<div class="item item-divider">
 					Options
 				</div>
 				<ion-toggle ng-model="timerMode" toggle-class="{{'toggle-'+settings.theme}}">Timer</ion-toggle>
- -->				
+
 			</div>
 
 		</div>
